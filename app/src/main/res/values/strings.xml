@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Auto</string>
+    <string name="auto_mark_hint">Enter a mark of auto.</string>
+    <string name="auto_model_hint">Enter a model of auto.</string>
+    <string name="auto_price_hint">Enter a price of auto.</string>
+    <string name="auto_mark_label">Mark</string>
+    <string name="auto_model_label">Model</string>
+    <string name="auto_price_label">price</string>
+    <string name="new_auto">New auto</string>
+    <string name="sort_auto">Sort auto by price</string>
+</resources>
