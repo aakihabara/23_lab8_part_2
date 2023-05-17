@@ -138,7 +138,7 @@ class AutoListFragment : Fragment() {
             this.auto = auto
             markTextView.text = this.auto.mark
             modelTextView.text = this.auto.model
-            priceTextView.text = this.auto.price.toString() + " Руб."
+            priceTextView.text = this.auto.price.toString() + "$"
         }
 
         override fun onClick(v: View) {

@@ -12,24 +12,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app_name"/>
-    <EditText
+    <Spinner
         android:id="@+id/auto_mark"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="25sp"
         android:hint="@string/auto_mark_hint"/>
 
-    <EditText
+    <Spinner
         android:id="@+id/auto_model"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/auto_model_hint"/>
+        android:layout_height="40dp"
+        android:textSize="25sp"
+        android:hint="@string/auto_model_hint"
+        />
 
     <EditText
         android:id="@+id/auto_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/auto_price_hint"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:maxLength="7"/>
 
 
 </LinearLayout>
